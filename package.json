@@ -1,8 +1,8 @@
 {
-  "name": "com.ethan.referecnehelper",
+  "name": "com.ethan.referencehelper",
   "version": "1.0.0",
   "displayName": "ReferenceHelper",
-  "description": "Unity tool that automates object referencing via [ObjectReference("path")] attributes, eliminating manual drag-and-drop.",
+  "description": "Unity tool that automates object referencing via [ObjectReference(\"path\")] attributes, eliminating manual drag-and-drop.",
   "unity": "2019.4.0f1",
   "unityRelease": "0f1",
   "dependencies": {},
