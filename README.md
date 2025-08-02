@@ -97,11 +97,12 @@ PlayerController (this script)
 
 **Examples:**
 ```csharp
-[ObjectReference("")]              // Current GameObject
-[ObjectReference("Child")]         // Direct child named "Child"
-[ObjectReference("UI/Button")]     // Child "Button" under "UI"
-[ObjectReference("A/B/C")]         // Nested path A → B → C
+[ObjectReference("")] public GameObject test1; // Current GameObject
+[ObjectReference("Child")] public GameObject test2; // Direct child named "Child"
+[ObjectReference("UI/Button")] public Button test3; // Child "Button" under "UI"
+[ObjectReference("A/B/C")] public MeshCollider test4; // Nested path A → B → C
 ```
+![img_v3_02op_2ab1edc3-d2f1-4510-b54a-1e49be3723bg](https://github.com/user-attachments/assets/9e29709b-8405-4945-8d51-b8158fa138ea)
 
 ## 🔍 Troubleshooting
 
