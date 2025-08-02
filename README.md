@@ -104,50 +104,10 @@ PlayerController (this script)
 ```
 ![img_v3_02op_2ab1edc3-d2f1-4510-b54a-1e49be3723bg](https://github.com/user-attachments/assets/9e29709b-8405-4945-8d51-b8158fa138ea)
 
-## 🔍 Troubleshooting
-
-### Common Issues
-
-**Q: The reference isn't being set automatically**
-- A: Ensure the path exactly matches your GameObject hierarchy (case-sensitive)
-- Check that the target GameObject exists in the scene
-
-**Q: "Create" button doesn't work**
-- A: Make sure the field type matches what you want to create
-- For Components, ensure the Component type exists and is accessible
-
-**Q: References break when I move objects**
-- A: The tool uses string paths, so moving objects in hierarchy may break references
-- Simply click "Create" again or update the path in code
-
-### Best Practices
-
-1. **Use Clear Naming**: Name your GameObjects descriptively for easier path writing
-2. **Keep Paths Short**: Avoid overly deep hierarchies when possible
-3. **Group Related Objects**: Organize UI elements and game objects logically
-4. **Test in Play Mode**: Ensure references work correctly during runtime
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👨‍💻 Author
 
 **Ethan**
 - Email: tyx1993@live.cn
-
-## 🙏 Acknowledgments
-
-- Unity Technologies for the excellent Editor API
-- Community feedback and contributions
 
 ---
 
