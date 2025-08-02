@@ -1,0 +1,17 @@
+{
+    "name": "UnityReferenceHelper.Editor",
+    "references": [
+        "GUID:2e20789ba13b49b4e8b205754a2f0607"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
