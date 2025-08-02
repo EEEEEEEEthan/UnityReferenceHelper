@@ -16,7 +16,7 @@ A Unity editor extension that automates GameObject and Component referencing thr
 ### Method 1: Unity Package Manager (Recommended)
 1. Open Unity Package Manager (Window → Package Manager)
 2. Click the "+" button and select "Add package from git URL"
-3. Enter: `https://github.com/yourusername/UnityReferenceHelper.git`
+3. Enter: `https://github.com/EEEEEEEEthan/UnityReferenceHelper.git`
 
 ### Method 2: Manual Installation
 1. Download the latest release from GitHub
