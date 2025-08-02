@@ -27,37 +27,20 @@ A Unity editor extension that automates GameObject and Component referencing thr
 
 ### Basic Usage
 
+**Examples:**
 ```csharp
-using ReferenceHelper;
-using UnityEngine;
+[ObjectReference("")] public GameObject test1; // Current GameObject
+[ObjectReference("Child")] public GameObject test2; // Direct child named "Child"
+[ObjectReference("UI/Button")] public Button test3; // Child "Button" under "UI"
+[ObjectReference("A/B/C")] public MeshCollider test4; // Nested path A → B → C
+```
+![img_v3_02op_2ab1edc3-d2f1-4510-b54a-1e49be3723bg](https://github.com/user-attachments/assets/9e29709b-8405-4945-8d51-b8158fa138ea)
 
-public class PlayerController : MonoBehaviour
-{
-    // Reference a child GameObject
-    [ObjectReference("UI/HealthBar")] 
-    public GameObject healthBarUI;
-    
-    // Reference a specific component
-    [ObjectReference("Player/WeaponSocket")] 
-    public Transform weaponSocket;
-    
-    // Reference nested objects
-    [ObjectReference("UI/MainPanel/Settings/VolumeSlider")] 
-    public Slider volumeSlider;
-}
-```
-
-### Hierarchy Example
-```
-PlayerController (this script)
-├── UI/
-│   ├── HealthBar (GameObject)
-│   └── MainPanel/
-│       └── Settings/
-│           └── VolumeSlider (Slider Component)
-└── Player/
-    └── WeaponSocket (Transform Component)
-```
+**One-Click Creation Feature:**
+When referenced GameObjects or Components don't exist, the Inspector displays a red "Create" button. Click it to:
+- Automatically create missing GameObject hierarchy structures
+- Auto-add required Components for Component types
+- Full support for Unity's Undo operations
 
 ## 🔧 How It Works
 
@@ -94,15 +77,6 @@ PlayerController (this script)
 - `path` (string): Relative path from the current GameObject to the target object
   - Use "/" to separate hierarchy levels
   - Empty string references the current GameObject
-
-**Examples:**
-```csharp
-[ObjectReference("")] public GameObject test1; // Current GameObject
-[ObjectReference("Child")] public GameObject test2; // Direct child named "Child"
-[ObjectReference("UI/Button")] public Button test3; // Child "Button" under "UI"
-[ObjectReference("A/B/C")] public MeshCollider test4; // Nested path A → B → C
-```
-![img_v3_02op_2ab1edc3-d2f1-4510-b54a-1e49be3723bg](https://github.com/user-attachments/assets/9e29709b-8405-4945-8d51-b8158fa138ea)
 
 ## 👨‍💻 Author
 
