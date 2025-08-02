@@ -4,7 +4,7 @@ A Unity editor extension that automates GameObject and Component referencing thr
 
 ## ✨ Features
 
-- **Automatic Reference Resolution**: Use `[ObjectReference("path")]` to automatically link GameObjects and Components by path
+- **Path-Based Reference Linking**: Use `[ObjectReference("path")]` to link GameObjects and Components by hierarchy path
 - **Smart Error Detection**: Visual indicators for missing or mismatched references
 - **One-Click Fixes**: Built-in "Create" and "Clear" buttons to resolve reference issues
 - **Type Safety**: Supports both GameObject and Component references with automatic type checking
